@@ -1,0 +1,215 @@
+/* ***********************************INDEX ************************************* */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+                       
+.head{
+background-color: white;
+padding: 20px;
+ border: 1px solid lightgray; 
+box-shadow: 5px 8px 15px grey;
+}
+
+.head h1{
+ margin-left: 70px;
+ font-size: 2rem;
+ font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.head span{
+ color: #00A5EC;
+  }
+
+.container{
+    margin-top: 150px;
+    height: 830px;
+    position: relative;
+}
+.ABC{
+    margin-left: 280px;
+    top: 140px;
+    display: flex;
+    justify-content: start;
+    flex-wrap: wrap;
+    column-gap: 10px;
+    row-gap: 10px;
+}
+.box{
+    height: 300px;
+    background-color: white;
+    width: 320px;
+    border: 2px solid lightgrey;
+    border-radius: 10px;
+    transition: all .3s ease-in-out;
+}
+.box:hover{
+    box-shadow: 5px 8px 15px #cfcdcd;
+}
+
+
+  .add{ 
+    position: relative;
+    top: 60px;
+    right: 200px;
+    float: right;
+    display: flex;
+    font-size: 1.3rem;
+    align-items: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+ .add span{ 
+    font-weight: bold;
+}
+
+ .container .add h3{ 
+    margin-left: 10px;
+    color: #424242;
+} 
+
+.box h3{
+    color: #00A5EC;
+    margin: 20px;
+}
+
+    
+ .box label{ 
+     color: #424242; 
+    margin-left: 10px;
+ } 
+
+.checklist .firstcheckbox{ 
+    text-decoration: line-through;
+    color: #8c8a8a;
+ } 
+
+.checklist .margin{
+    margin-left: 10px;
+}
+
+.box .checklist{
+    display: flex;
+    row-gap: 20px;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-right: 150px;
+    padding-bottom: 30px;
+    margin-top: 30px;
+}
+.checklist input[type-checkbox]{
+    background-color: grey;
+    
+}
+.box input{
+    align-items: center;
+    margin: 0px 0 0 30px;
+    height: 20px;
+    width: 20px;
+}
+.box .checking{
+     width: 210px; 
+     margin-right: -120px; 
+}                             
+                              
+/* *****************************************INDEX ONE********************************** */
+
+.Nextcontainer{
+    position: absolute;
+    height: 920px; 
+    width: 300px;
+}
+.midbox{
+    position: absolute;
+    margin-left: 570px;
+    margin-top:-700px;
+    height: 240px;
+    width: 410px;
+    background-color: white;
+    border: 2px solid lightgrey;
+    border-radius: 15px;
+
+}  
+
+.midbox h3{
+    color: #8c8a8a;
+     padding: 15px 0 15px 20px; 
+    font-size: 1.2rem; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.midbox .cross{
+    color: grey;
+     margin-left: 210px; 
+    font-size: 1.5rem; 
+}
+ 
+   .midbox input{  
+    margin: 30px 17px;
+    width: 390px;
+    border: 2px solid #F7F7F7;
+    background-color: #F7F7F7;
+    height: 40px;
+ } 
+
+.midbox input::placeholder{
+    padding-left: 10px;
+    font-weight: bold;
+}
+
+.midbox button{
+    height: 50px;
+    width: 170px;
+    margin-right: 20px;
+    margin-left:214px;
+    background-color: #00A5EC;
+    color: white; 
+    border-radius: 5px;
+    font-size: 1.4rem; 
+    margin-right: 2px;
+ } 
+
+ .index{
+    filter: brightness(0.4);
+ }
+
+ 
+        /* ****************************INDEX THREE */
+
+.back{
+    display: flex;
+    position: absolute;
+    font-size: 1.3rem;
+    column-gap: 10px;
+    left: 340px;
+    margin-top:-20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}           
+
+.index3{
+    position: absolute;
+    margin-top: -780px;
+    margin-left: 500px;
+}
+.plus{display: flex;
+    align-items: center;
+    position: absolute;
+    margin-top: -30px;
+    margin-left: 790px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+ 
+ .filter{ 
+    filter: brightness(0.4);
+}
+
+
+/* ********************************************INDEX FOUR******************************** */
+
+.center{
+    position: relative;
+    margin-top: -90px;
+    margin-left:0px ;
+}
+    
